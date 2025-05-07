@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import os
 import serversito
+# from config import TOKEN
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
