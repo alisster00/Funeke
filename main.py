@@ -1,10 +1,14 @@
+'''
+Si estás viendo este código, es algo viejo y solo lo subí por una prueba
+'''
+
 import discord
 from discord.ext import commands
 import os
 import serversito
 # from config import TOKEN
 
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+# DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
 bot = commands.Bot(command_prefix="f!", intents=discord.Intents.all())
 bot.remove_command("help")
